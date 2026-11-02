@@ -1,7 +1,7 @@
 export async function GET(request, context) {
   return {
     ok: true,
-    channel: "production-main-v1",
+    channel: "pr-preview-v2",
     project: context.project,
     subdomain: context.subdomain,
     deploymentId: context.deploymentId,
